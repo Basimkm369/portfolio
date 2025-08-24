@@ -2,7 +2,7 @@ import workData from "../utils/workData";
 
 const Work = () => (
   <section className="work section" id="work">
-    <h2 className="section-title">Work</h2>
+    <h2 className="section-title">Works</h2>
     <div className="work__container bd-grid">
       {workData?.map(({ img, title, link, desc }) => (
         <div key={title} className="work__item">

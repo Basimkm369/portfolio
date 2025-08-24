@@ -1,0 +1,9 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="B logo">
+  <title>B logo</title>
+  <!-- Blue background -->
+  <circle cx="64" cy="64" r="64" fill="#2563EB"></circle>
+  <!-- White letter -->
+  <text x="50%" y="54%" text-anchor="middle" dominant-baseline="middle" font-family="Inter, Poppins, Arial, sans-serif" font-weight="800" font-size="72" fill="#FFFFFF">
+    B
+  </text>
+</svg>

@@ -74,7 +74,7 @@ const Header = ({active, setActive,menuOpen, setMenuOpen}) => {
                   setMenuOpen(false);
                 }}
               >
-                Work
+                Works
               </a>
             </li>
             <li className="nav__item">
