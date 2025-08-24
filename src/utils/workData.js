@@ -9,7 +9,7 @@ export default [
   {
     img: receivabull,
     title: 'RECEIVABULL',
-    link: 'https://dev-app.receivabull.com/login',
+    link: 'https://stag-app.receivabull.com/login',
     desc: `Receivabull is a funder-focused instant loan platform built with Next.js. 
   It integrates with LendSaaS to display merchants and ratings on a syndicate page, 
   allowing funders to allocate capital directly. The platform facilitates seamless 
