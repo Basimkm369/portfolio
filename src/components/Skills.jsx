@@ -26,10 +26,13 @@ const Skills = () => {
                 <div className="skills__item">
                     <span className="skills__name">CSS</span>
                 </div>
+                 <div className="skills__item">
+              <span className="skills__name">Tailwind CSS</span>
+            </div>
             </div>
         </div>
 
-        <div>
+        {/* <div>
             <h2 className="skills__subtitle">React.js Core Concepts</h2>
             <div className="skills__list">
                 <div className="skills__item">
@@ -45,7 +48,7 @@ const Skills = () => {
                     <span className="skills__name">Lifecycle Methods</span>
                 </div>
             </div>
-        </div>
+        </div> */}
 
         <div>
             <h2 className="skills__subtitle">State Management & Tools</h2>
@@ -93,6 +96,16 @@ const Skills = () => {
                 </div>
             </div>
         </div>
+
+         <div>
+          <h2 className="skills__subtitle">Testing & Quality Assurance</h2>
+          <div className="skills__list">
+            <div className="skills__item">
+              <span className="skills__name">Jest</span>
+            </div>
+          </div>
+        </div>
+      
     </div>
 </section>
   )

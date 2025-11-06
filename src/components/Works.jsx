@@ -1,3 +1,4 @@
+import { FiExternalLink } from "react-icons/fi";
 import workData from "../utils/workData";
 
 const Work = () => (
@@ -9,7 +10,14 @@ const Work = () => (
           <img src={img} alt={title} />
           <div className="work__info">
             <h3 className="work__title">{title}</h3>
-            <a href={link} target="_blank" rel="noreferrer" className="work__link">Visit Project ↗</a>
+            <a
+              href={link}
+              target="_blank"
+              rel="noreferrer"
+              className="work__link"
+            >
+              Visit Project <FiExternalLink className="work__icon" />
+            </a>
             <p className="work__desc">{desc}</p>
           </div>
         </div>
